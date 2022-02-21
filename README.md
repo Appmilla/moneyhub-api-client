@@ -1,1 +1,1 @@
-# MoneyhubApiClient
+# Moneyhub.ApiClient

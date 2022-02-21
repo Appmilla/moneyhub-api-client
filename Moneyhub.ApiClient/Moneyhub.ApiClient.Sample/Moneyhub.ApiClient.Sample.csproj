@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Autofac" />
+    <None Remove="Autofac.Extensions.DependencyInjection" />
+    <None Remove="Refit.HttpClientFactory" />
+    <None Remove="Refit" />
+    <None Remove="Autofac.Extras.CommonServiceLocator" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="6.3.2" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Moneyhub.ApiClient\Moneyhub.ApiClient.csproj" />
+  </ItemGroup>
+</Project>

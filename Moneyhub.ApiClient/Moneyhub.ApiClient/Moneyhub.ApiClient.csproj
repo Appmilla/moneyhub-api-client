@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Identity\" />
+    <None Remove="OpenFinance\" />
+    <None Remove="Refit" />
+    <None Remove="System.ComponentModel.Annotations" />
+    <None Remove="Config\" />
+    <None Remove="Refit.Newtonsoft.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Identity\" />
+    <Folder Include="OpenFinance\" />
+    <Folder Include="Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Refit" Version="6.3.2" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="Refit.Newtonsoft.Json" Version="6.3.2" />
+  </ItemGroup>
+</Project>
