@@ -4,13 +4,12 @@ using Autofac;
 using Microsoft.Extensions.DependencyInjection;
 using Autofac.Extensions.DependencyInjection;
 using Refit;
-using Appmilla.Moneyhub.Refit.Appmilla.Moneyhub.Identity.Apis;
 using Moneyhub.ApiClient.Config;
 using System.Net.Http.Headers;
 using Autofac.Extras.CommonServiceLocator;
 using CommonServiceLocator;
 using System.Threading.Tasks;
-using Appmilla.Moneyhub.Refit.Appmilla.Moneyhub.Identity.Models;
+using Appmilla.Moneyhub.Refit.Identity;
 
 namespace Moneyhub.ApiClient.Sample
 {

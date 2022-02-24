@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Appmilla.Moneyhub.Refit.Appmilla.Moneyhub.Identity.Models;
 using Refit;
 
-namespace Appmilla.Moneyhub.Refit.Appmilla.Moneyhub.Identity.Apis
+namespace Appmilla.Moneyhub.Refit.Identity
 {
     public interface IAccessToken
     {

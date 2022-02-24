@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Appmilla</Company>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>An API client for use with Reactive.UI for accessing Honeyhubs API's</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Appmilla/MoneyhubApiClient</RepositoryUrl>
+    <PackageTags>Moneyhub</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,7 +1,7 @@
 ﻿using System;
 using Refit;
 
-namespace Appmilla.Moneyhub.Refit.Appmilla.Moneyhub.Identity.Models
+namespace Appmilla.Moneyhub.Refit.Identity
 {
     public class AccessTokenRequest
     {
