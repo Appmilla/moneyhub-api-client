@@ -8,6 +8,7 @@
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/Appmilla/MoneyhubApiClient</RepositoryUrl>
     <PackageTags>Moneyhub</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
