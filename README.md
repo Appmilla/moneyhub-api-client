@@ -3,7 +3,9 @@
 Moneyhub.ApiClient is a client SDK library for accessing Moneyhub's Data and Identity API's using ReactiveUI.Refit
 
 https://www.moneyhub.com/home
+
 https://api.moneyhub.co.uk/
+
 https://identity.moneyhub.co.uk
 
 Registering Moneyhubs interfaces can be done in a number of ways, one of these is detailed below using Autofac:
