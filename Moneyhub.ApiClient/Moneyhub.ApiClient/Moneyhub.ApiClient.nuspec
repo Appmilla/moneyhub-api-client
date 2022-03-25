@@ -1,0 +1,26 @@
+<package>
+  <metadata>
+    <id>Moneyhub.ApiClient</id>
+    <version>1.0.1</version>
+    <authors>Appmilla</authors>
+    <title>Moneyhub API Client</title>
+    <description>Moneyhub.ApiClient is a client SDK library for accessing Moneyhub's Data and Identity API's using ReactiveUI.Refit</description>
+    <projectUrl>https://github.com/Appmilla/moneyhub-api-client</projectUrl>
+    <repository type="git" url="https://github.com/Appmilla/moneyhub-api-client.git" branch="main" />
+    <license type="expression">MIT</license>
+    <releaseNotes>Initial release</releaseNotes> 
+    <tags>Moneyhub ASP.NET</tags>
+    <dependencies> 
+      <dependency id="Refit" version="6.3.2" /> 
+      <dependency id="System.ComponentModel.Annotations" version="5.0.0" /> 
+      <dependency id="Refit.Newtonsoft.Json" version="6.3.2" />      
+    </dependencies>
+    <language>en-US</language>
+    <packageTypes>
+      <packageType name="Dependency" />
+    </packageTypes>
+  </metadata>
+<files>
+  <file src="**" exclude= "bin\**;obj\**;.vs\**;.vscode\**;.git\**;*.nuspec" target="content/" />
+  </files>
+</package>
